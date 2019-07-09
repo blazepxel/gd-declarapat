@@ -1,0 +1,89 @@
+#rfc_login{
+  text-transform:none !important;
+}
+
+.form-control{
+  text-transform:uppercase !important;
+}
+
+.list-group-item{
+  font-size: smaller !important;
+}
+
+
+body{
+  background-color: #fafafa !important;
+}
+
+
+.h4, h4 {
+    line-height: 1.5em;
+}
+
+
+.table {
+  margin-top: 40px;
+  text-transform: uppercase;
+}
+
+.table td {
+  vertical-align: inherit !important;
+}
+
+th{
+  text-align: center !important;
+}
+
+.table a{
+  text-transform:capitalize;
+}
+
+caption {
+  text-align: center !important;
+  font-weight: bold;
+}
+
+.progress {
+  margin-bottom: 0px !important;
+}
+.progress-bar-warning {
+  color: #333 !important;
+  font-weight: bolder !important;
+}
+
+#div_tabla{
+  margin-top: 50px !important;
+}
+
+.upper{
+  text-transform: uppercase;
+}
+
+
+.escudo{
+  display: list-item;
+  list-style-image: url("img/escudo.gif");
+  list-style-position: inside;
+}
+
+.img {
+  display: none;
+}
+
+@media print {
+  .panel {
+    border: none !important;
+    font-size: 12px !important;
+  }
+  footer, .panel-footer, .panel-heading{
+    display: none !important;
+  }
+
+  .img {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    z-index: -1;
+    display: inline;
+  }
+}

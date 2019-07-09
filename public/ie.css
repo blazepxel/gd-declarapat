@@ -1,0 +1,28 @@
+.ie
+{
+  display:none;
+}
+
+@media all and (-ms-high-contrast: none), (-ms-high-contrast: active), (-ms-ime-align:auto) {
+
+  .container,.page-footer, .navbar{
+    display:none !important;
+  }
+
+  .ie
+  {
+    display:inline !important;
+  }
+
+}
+
+@supports (-ms-ime-align:auto) {
+  .container,.page-footer, .navbar{
+    display:none !important;
+  }
+
+  .ie
+  {
+    display:inline !important;
+  }
+}
